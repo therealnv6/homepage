@@ -12,7 +12,7 @@ export default function Home() {
             <div className="px-5 max-w-md">
               <h1 className="text-5xl font-bold">Hello there.</h1>
               <h2 className="font-bold">
-                It's currently{" "}
+                It's currently
                 <span className="text-green-500">
                   <DateComponent></DateComponent>
                 </span>

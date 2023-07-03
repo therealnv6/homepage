@@ -5,10 +5,16 @@ export default async function handler(
   res: NextApiResponse,
 ) {
   try {
-    const query = "furry";
-    const wh_api_key = "";
+    const query = "forest";
     const response = await fetch(
-      `https://wallhaven.cc/api/v1/search?q=${query}&purity=111&sorting=random&apikey=${wh_api_key}`,
+      `https://wallhaven.cc/api/v1/search?q=${query}&purity=111&sorting=random`,
+      {
+        credentials: "include",
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:101.0) Gecko/20100101 Firefox/101.0",
+        },
+      },
     );
 
     if (!response.ok) {

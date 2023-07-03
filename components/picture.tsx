@@ -33,8 +33,8 @@ export default function PictureComponent() {
         <img
           src={picture}
           style={{
-            width: "240px !important",
-            height: "360px !important",
+            width: "240px",
+            height: "360px",
             objectFit: "cover",
           }}
         />

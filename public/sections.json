@@ -1,0 +1,19 @@
+{
+  "websites": {
+    "github": "https://github.com/",
+    "pornhub": "https://pornhub.com"
+  },
+  "sub reddits": {
+    "r/gamdev": "https://reddit.com/r/gamedev",
+    "r/voxels": "https://reddit.com/r/voxels"
+  },
+  "research": {
+    "svo (by nvidia)": "https://research.nvidia.com/sites/default/files/pubs/2010-02_Efficient-Sparse-Voxel/laine2010tr1_paper.pdf",
+    "svo (blog post)": "http://johnwhigham.blogspot.com/2012/10/sparse-voxel-octrees-new-beginning.html"
+  },
+  "to finish": {
+    "voxel (blog)": "https://egirldev.gay/posts/voxel",
+    "awesome (list)": "https://egirldev.gay/posts/awesome",
+    "slow db (blog)": "https://egirldev.gay/posts/slow-db-1"
+  }
+}

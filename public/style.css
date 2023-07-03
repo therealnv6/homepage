@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --wave1: #00ffff;
+  --wave2: #9932cc;
+  --wave3: #00ced1;
+}
+
+@keyframes waveEffect {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.wave-text {
+  background: linear-gradient(
+    to right,
+    var(--wave1),
+    var(--wave2),
+    var(--wave3)
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: waveEffect 5s linear infinite alternate;
+}
+
+a:hover {
+  background: linear-gradient(
+    to right,
+    var(--wave1),
+    var(--wave2),
+    var(--wave3)
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: waveEffect 2s linear infinite alternate;
+}

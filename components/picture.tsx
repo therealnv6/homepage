@@ -7,7 +7,7 @@ export default function PictureComponent() {
   const RETRY_DELAY = 1000; // Delay between retries in milliseconds
 
   const fetchPicture = (retries = 0) => {
-    fetch("/api/wallhaven")
+    fetch("/api/picture")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to get random picture from Wallhaven!");
